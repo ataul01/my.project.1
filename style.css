@@ -50,3 +50,16 @@ h2 {
   background-repeat: no-repeat;
   background-position: left;
 }
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(orange, tomato);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+}
