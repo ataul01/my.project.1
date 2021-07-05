@@ -5,10 +5,13 @@ body {
 h1 {
   font-size: 45px;
 }
+h2 {
+  font-size: 33px;
+}
 .color-orange {
   color: orange;
 }
-section {
+.flex-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -34,4 +37,16 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience-dev {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 15px;
+  box-shadow: 10px 10px 40px rgb(45, 48, 48);
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
